@@ -56,7 +56,7 @@ security:
   oauth2:
     resource:
       id: ${spring.application.name}
-      user-info-uri: http://${febs-gateway}:8301/auth/user
+      user-info-uri: http://localhost:8301/auth/user
 
 info:
   app:
