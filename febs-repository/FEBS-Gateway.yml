@@ -29,8 +29,8 @@ zuul:
     eager-load:
       enabled: true
   host:
-    connect-timeout-millis: 5000
-    socket-timeout-millis: 5000
+    connect-timeout-millis: 90000
+    socket-timeout-millis: 90000
   add-proxy-headers: true
 
   SendErrorFilter:
@@ -38,8 +38,8 @@ zuul:
       disable: true
 
 ribbon:
-  ConnectTimeout: 3000
-  ReadTimeout: 5000
+  ConnectTimeout: 90000
+  ReadTimeout: 90000
 
 info:
   app:
